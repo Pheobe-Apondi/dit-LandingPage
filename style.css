@@ -1,0 +1,666 @@
+body{
+    font-size: 16px;
+    background-color: rgb(239, 251, 255);
+}
+
+
+header{
+    display: flex;
+    margin-top: 2%;
+
+    .logo{
+      margin-left: 2%;
+      margin-top: 2%;
+    }
+
+    .navbar a{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: rgb(175, 171, 171);
+    }
+    .navbar a:hover{
+        color: black;
+    }
+
+    .navbar{
+        margin-left: 20%;
+        margin-top: 2%;
+        display: flex;
+        gap: 30px;
+        
+        
+    }
+
+    .headerButtons{
+        margin-top: 1%;
+        margin-left: 6%;
+        display: flex;
+        gap: 45px;
+      
+    }
+
+    #headerSignUp{
+        color: white;
+        background-color: rgb(212, 37, 66);
+        border: none;
+        padding: 2em;
+        border-radius: 1em;
+    }
+    #headerLogin{
+        padding: 2em;
+        border-radius: 1em;
+        border: none;
+      
+    }
+}
+
+
+.heroSection{
+     display: flex;
+     justify-content: center;
+     margin-top: 2%;
+     margin: 5%;
+     gap: 20%;
+     
+
+
+     #heroTitleColor{
+        color: red;
+     }
+
+     .heroLeftSide{
+        background-color: blue;
+        margin-right: -40%;
+      
+        
+     }
+     .heroTitle{
+        font-size: 3.5rem;
+        border: solid red 2px;
+        width: 50%;
+        padding-right: 0%;
+        padding-left: 2em;
+        margin-right: 0%;
+        margin-left: 5%;
+     }
+     
+     .heroButtons{
+        margin-top: 2%;
+        margin-left: 10%;
+        
+     }
+
+     #appleIcon, #googleIcon{
+        font-size: 2rem;
+     }
+      #appleButton{
+         border-radius: 2em;
+         background-color: rgb(10, 10, 27);
+         color: white;
+         width: 15%;
+         padding: 1em;
+         font-size: 1em;
+      }
+
+      #googleButton{
+
+        border-radius: 2em;
+        border: solid 2px   rgb(10, 10, 27);
+        color: rgb(10, 10, 27);
+        width: 15%;
+        padding: 1em;
+        font-size: 1em;
+        background-color: white;
+        margin-left: 1em;
+         
+      }
+
+      #heroContact{
+        margin-left: 10%;
+        font-size: 2em;
+        background-color: gray;
+    }
+
+    #heroLink{
+        background-color: none;
+        color: rgb(10, 10, 27) ;
+    }
+
+     .heroRightSide{
+       background-color: rgb(199, 126, 138);
+       padding-left: 4em;
+       border-radius: 2em;
+       transform: rotate(-5deg);
+     }
+
+     .profileInfo{
+        display: flex;
+        gap: 2%;
+     }
+    #profileImage{
+        width: 30%;
+      
+      
+    }
+
+    .profileDescription{
+        display: flex;
+        gap: 44%;
+    }
+
+    #happyFace{
+        margin-top: -50%;
+       
+        margin-left: 22%;
+        z-index: -1;
+    }
+
+    .profileHighlights{
+        background-color: blue;
+        border-radius: 2em;
+        text-align: center;
+        padding-top: 15px;
+        width: 60%;
+        margin-top: -25%;
+        
+    }
+
+   
+}
+
+.partneredCompanies{
+      #partneredCompaniesTitle{
+          text-align: center;
+          margin-top: 10%;
+          color: grey;
+      }
+
+      #partners{
+        color:rgb(10, 10, 27) ;
+      }
+
+    .companiesLogo{
+        display: flex;
+        gap: 5%;
+        margin-left: 10em;
+        margin-top: 2em;
+    }
+    #microsoftLogo,#trelloLogo, #googleLogo, #dropboxLogo, #slackLogo {
+        width: 10%;
+       
+    }
+
+    
+}
+
+
+.services{
+    background-color: blueviolet;
+     .servicesCatalogue{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        
+    
+     }
+
+     #servicesHeading{
+        text-align: center;
+        margin: 2em;
+        padding-top: 2em;
+     }
+
+     .interfaceServices, .supportServices, .transfersServices{
+      background-color: palegreen;
+      border-radius: 2em;
+      padding: 2em;
+      padding-bottom: 5em;
+      margin-bottom: 2em;
+      
+     }
+
+     #starIcon{
+        background-color: burlywood;
+         margin-left: 40%;
+        padding: 0.5em;
+        border-radius: 3rem;
+        font-size: 2em;
+     }
+     #equalizer{
+        background-color: aqua;
+        margin-left: 40%;
+       padding: 0.5em;
+       border-radius: 3rem;
+       font-size: 2em;
+     }
+
+     #featherIcon{
+        background-color: pink;
+        margin-left: 40%;
+       padding: 0.5em;
+       border-radius: 3rem;
+       font-size: 2em;
+     }
+
+
+
+}
+
+
+.statistics{
+    display: flex;
+    gap: 4%;
+    margin-top: 5%;
+    justify-content: center;
+
+    .statsDescription{
+        background-color: brown;
+        font-size: 2em;
+    }
+    .getInTouch{
+        background-color: chocolate;
+        width: 50%;
+        border-radius: 2em;
+    }
+
+    .userDownloads, .userSubscribers{
+        display: flex;
+    }
+
+  .createAccount{
+    display: flex;
+    gap: 3%;
+    background-color: white;
+    margin: 2.5em;
+    margin-top: -2em;
+    border-radius: 2em;
+    padding: 2em;
+  }
+
+   #boxIcon{
+    font-size: 2rem;
+  
+   }
+
+   #watchButton{
+     border-radius: 2em;
+     background-color: blue;
+     color: white;
+     
+
+   }
+
+   #getInTouchImage{
+
+    margin-left: 15%;
+    position: absolute;
+    margin-top: 4%;
+    width: 20%;
+    
+
+   }
+
+   .studyWithMe{
+      background-color: white;
+      width: 40%;
+      border-radius: 2em;
+      padding: 2em;
+      margin-left: -5%;
+   }
+
+
+}
+
+.appInfo{
+   display: flex;
+   background-color: pink;
+   
+   justify-content: center;
+
+   .appDetails{
+    background-color: blue;
+    font-size: 1.5em;
+    padding: 2em;
+   }
+
+   .appsettings{
+      background-color: red;
+      padding: 2em;
+      transform: rotate(25deg);
+      border-radius: 2em;
+      width: 10%;
+      margin-left: 10%;
+      margin-top: 10%;
+
+   }
+
+   #phoneIcon{
+    font-size: 2rem;
+   }
+
+   #appButton{
+    background-color: rgb(10, 10, 27);
+    color: white;
+    border-radius: 2em;
+    padding: 2em;
+    width: 30%;
+   
+
+   }
+
+   .socialMedia{
+    background-color: darkgoldenrod;
+   transform: rotate(20deg);
+   border-radius: 2em;
+   padding-left: 2em;
+   width: 20%;
+   margin-left: 10%;
+   
+
+  
+   }
+
+   
+
+   .socialMediaButton{
+    display: block;
+    margin-left: 2%;
+   
+   }
+   #socialLoginButton{
+    width: 60%;
+    padding: 2em;
+    border: solid 2px rgb(228, 70, 122);
+    border-radius: 2em;
+
+   }
+   #socialSignUpButton{
+    margin-top: 2%;
+    width: 60%;
+    padding: 2em;
+    color: white;
+    background-color: rgb(221, 120, 137);
+    border-radius: 2em;
+    border: none;
+   }
+
+   #socialsImage{
+    width: 40%;
+  }
+  .mediaIcons{
+    margin-top: 3%;
+    margin-left: 5%;
+    display: flex;
+    gap: 60%;
+  }
+
+  #mediaName{
+    margin-left: 2%;
+    margin-top: -7%;
+  }
+
+  .testimonials{
+    display: flex;
+
+  }
+  .clientTestimonials{
+    display: flex;
+  }
+  #testimonialClient{
+    width: 20%;
+  }
+
+  .socialProof{
+    display: flex;
+  }
+  .footer{
+    background-color: rgb(51, 51, 122);
+    color: black;
+  }
+  .footerCopyright{
+   
+  }
+}
+@media only screen and (max-width: 600px) and (min-width: 360px){
+     
+    header{
+        display: block;
+        margin-top: 2%;
+    
+        .logo{
+          
+          margin-top: 2%;
+          justify-content: center;
+        }
+    
+        .navbar a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: rgb(175, 171, 171);
+            display: block;
+            background-color: aqua;
+        }
+        .navbar a:hover{
+            color: black;
+        }
+    
+        .navbar{
+          
+            display: block;
+            margin-left: 0%;
+            
+            
+            
+        }
+    
+        .headerButtons{
+            margin-top: 5%;
+           display: flex;
+        }
+    
+       
+    }
+
+
+.heroSection{
+    display: block;
+   
+   
+
+
+    #heroTitleColor{
+       color: red;
+    }
+
+    .heroLeftSide{
+       background-color: blue;
+       width: 100vw;
+       margin-left: 0%;
+    
+     
+       
+    }
+    .heroTitle{
+       font-size: 1.5rem;
+       border: solid red 2px;
+        width:70%;
+        padding-right: 0%;
+        padding-left: 3%;
+        margin-right: 0%;
+        margin-left: 0%;
+
+      
+    }
+    
+    .heroButtons{
+      display:block;
+      margin-top: 0%;
+      margin-left: 0%;
+      
+    }
+
+    #appleIcon, #googleIcon{
+       font-size: 2rem;
+    }
+     #appleButton{
+        border-radius: 2em;
+        background-color: rgb(10, 10, 27);
+        color: white;
+        width: 50%;
+        padding: 1em;
+        font-size: 1em;
+        margin-top: 5%;
+        margin-left: 1em;
+     }
+
+     #googleButton{
+
+       border-radius: 2em;
+       border: solid 2px   rgb(10, 10, 27);
+       color: rgb(10, 10, 27);
+       width: 50%;
+       padding: 1em;
+       font-size: 1em;
+       background-color: white;
+       margin-left: 1em;
+       margin-top: 5%;
+        
+     }
+
+     #heroContact{
+       
+       font-size: 1em;
+       background-color: gray;
+   }
+
+   #heroLink{
+       background-color: none;
+       color: rgb(10, 10, 27) ;
+   }
+
+    .heroRightSide{
+      background-color: rgb(199, 126, 138);
+      padding-left: 4em;
+      border-radius: 2em;
+      transform: none;
+      display: block;
+    }
+
+    .profileInfo{
+       display: block;
+       gap: 2%;
+    }
+   #profileImage{
+       width: 80%;
+     
+     
+   }
+
+   .profileDescription{
+       display: block;
+       gap: 44%;
+   }
+
+   #happyFace{
+       margin-top: -40%;
+      
+       margin-left: -60%;
+       z-index: -1;
+   }
+
+   .profileHighlights{
+       background-color: blue;
+       border-radius: 2em;
+       text-align: center;
+       padding-top: 15px;
+       width: 60%;
+       margin-top: -25%;
+       
+   }
+
+  
+}
+
+
+.partneredCompanies{
+    #partneredCompaniesTitle{
+        text-align: center;
+        margin-top: 10%;
+        color: grey;
+    }
+
+    #partners{
+      color:rgb(10, 10, 27) ;
+    }
+
+  .companiesLogo{
+      display: block;
+      
+      margin-left: 0em;
+      margin-top: 3em;
+  }
+  #microsoftLogo,#trelloLogo, #googleLogo, #dropboxLogo, #slackLogo {
+      width: 50%;
+     
+     
+  }
+
+  
+}
+
+
+.services{
+    background-color: blueviolet;
+
+     .servicesCatalogue{
+        display: block;
+        justify-content: center;
+        gap: 10%;
+        margin: 1em;
+    
+     }
+
+     #servicesHeading{
+        text-align: center;
+        margin: 2em;
+        padding-top: 2em;
+     }
+
+     .interfaceServices, .supportServices, .transfersServices{
+      background-color: palegreen;
+      border-radius: 2em;
+      padding: 2em;
+      padding-bottom: 5em;
+      margin-bottom: 2em;
+      
+     }
+
+     #starIcon{
+        background-color: burlywood;
+         margin-left: 40%;
+        padding: 0.5em;
+        border-radius: 3rem;
+        font-size: 2em;
+     }
+     #equalizer{
+        background-color: aqua;
+        margin-left: 40%;
+       padding: 0.5em;
+       border-radius: 3rem;
+       font-size: 2em;
+     }
+
+     #featherIcon{
+        background-color: pink;
+        margin-left: 40%;
+       padding: 0.5em;
+       border-radius: 3rem;
+       font-size: 2em;
+     }
+
+
+
+}
+
+
+}
