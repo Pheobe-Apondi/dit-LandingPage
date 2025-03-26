@@ -16,11 +16,11 @@
            </div>
            
            <nav class="navbar">
-            <a href="#">Feature</a>
-            <a href="#">About Us</a>
+            <a href="#" >Feature</a>
+            <a href="#" >About Us</a>
             <a href="#">Products</a>
-            <a href="#">Pricing</a>
-            <a href="#">Feedback</a>
+            <a href="#" >Pricing</a>
+            <a href="#" >Feedback</a>
            </nav>
            <div class="headerButtons">
                 <button id="headerLogin">Login</button>
@@ -176,7 +176,7 @@
                         <i class="fa-solid fa-anchor"></i>
                         <h4>Study with me</h4>
                         <p>Study Stream via live time with our app</p>
-                        <button>Join</button>
+                        <button id="joinButton">Join</button>
                     </div>
                
             
@@ -184,7 +184,7 @@
    </section>
 
    <div>
-    <h1>We are helping <a>customers globally </a>everytime</h1>
+    <h1 id="tagline">We are helping <a>customers globally </a>everytime</h1>
    </div>
    <section class="appInfo">
     <div class="appDetails">
@@ -196,7 +196,7 @@
     <div class="appsettings">
         <h3>Settings</h3>
         <p>Account</p>
-        <div>
+        <div class="userInfo">
             <i class="fa-solid fa-user" style="color: #6b6d70;"></i>
             <h2>Tim David</h2>
             <p>Designer</p>
@@ -212,7 +212,7 @@
 
     </div>
     <div class="socialMedia">
-        <h3>Boost Social App to make new friends</h3>
+        <h1 id="socialMediaHeading">Boost Social App to make new friends</h1>
          <div class="socialMediaButton">
               <button id="socialLoginButton">Login</button>
               <br>
@@ -228,25 +228,30 @@
 
     </div> 
    </section>
+
   <secion class="testimonials">
-            <h1>Some words from our clients</h1>
+            <h1 id="testimonialsHeading">Some words from our clients</h1>
             <div class="clientTestimonials">
-                <div>
+                <div class="leftsideClient">
                     <img src="Images/blackLady.png" id="testimonialClient">
+                    <div class="ratings">
                     <i class="fa-solid fa-star" style="color: #e830d9;"></i>
                     <p>5.0</p>
-                    <i class="fa-solid fa-arrow-left" style="color: #020812;"></i>
+                  </div>
+                    <i class="fa-solid fa-arrow-left" style="color: #020812;" id="leftAtrowIcon"></i>
                     <h2>Edwin Zohir</h2>
                     <h3>Businesswoman</h3>
                     <p>We make payments easier and simpler.Receive and send payments without cash
                         Dpay make moving as simple. jjjrj  fdddff
                     </p>
                 </div>
-                <div>
+                <div class="rightSideClient">
                     <img src="Images/asian.png" id="clientImage">
-                    <i class="fa-solid fa-star" style="color: #e830d9;"></i>
-                    <p>5.0</p>
-                    <i class="fa-solid fa-arrow-right" style="color: #e6e7ea;"></i>
+                    <div class="ratings">
+                       <i class="fa-solid fa-star" style="color: #e830d9;"></i>
+                      <p>5.0</p>
+                   </div>
+                    <i class="fa-solid fa-arrow-right" style="color: #e6e7ea;" id="rightArrowIcon"></i>
                     <h2>Jekson Mockbul</h2>
                     <h3>Businesswoman</h3>
                     <p>We make payments easier and simpler.Receive and send payments without cash
@@ -256,13 +261,15 @@
 </secion>
 <section class="socialProof">
     <div>
-        <img src="https://www.lubashadesign.com/images/media/landing.png">
+        <img src="https://www.lubashadesign.com/images/media/landing.png" id="socialProofImage">
     </div>
     <div>
-        <p> Over 50,000+ Users</p>
-        <h1>Download diti.io Mobile App</h1>
+        <div class="socialProofDetails">
+            <p> Over 50,000+ Users</p>
+            <h1>Download diti.io Mobile App</h1>
+       </div>
         <div class="socialProofButtons">
-            <div>
+            <div class="appleSocials">
                 <button id="appleButton">
                    <i class="fa-brands fa-apple" style="color: #f7f7f7;" id="appleIcon"></i>
                    <span>Apple store</span>
@@ -274,20 +281,22 @@
                    <span>Play Store</span>
                    </button>
                </div>
-            <p id="heroContact">Different Platform?<a href="#" id="heroLink">Contact us</a></p>
         </div>
+          <p id="heroContact">Different Platform?<a href="#" id="heroLink">Contact us</a></p>
         <p></p>
     </div>
 </section>
 <footer class="footer">
-    <div>
-        <div class="Footerlogo">
-            <img src="Images/ditoHeaderLogo.png" alt="Company Logo">
-           </div>
-        <div class="socials">
-            <i class="fa-brands fa-instagram" style="color: #ebedef;"></i>
-            <i class="fa-brands fa-twitter" style="color: #f1f2f3;"></i>
-            <i class="fa-brands fa-facebook-f" style="color: #e8eaee;"></i>
+    <div class="footerContent">
+          <div class="footerSocials">
+             <div class="Footerlogo">
+                  <img src="Images/ditoHeaderLogo.png" alt="Company Logo">
+             </div>
+             <div class="socials">
+                  <i class="fa-brands fa-instagram" style="color: #ebedef;"></i>
+                  <i class="fa-brands fa-twitter" style="color: #f1f2f3;"></i>
+                  <i class="fa-brands fa-facebook-f" style="color: #e8eaee;"></i>
+             </div>
         </div>
         <div class="products">
             <h3>Our Products</h3>
@@ -314,20 +323,21 @@
             <a href="#">Privacy Policy</a>
         </div>
         <div class="resources">
-            <h3></h3>
+            <h3>Resources</h3>
             <a href="#">Blog</a>
             <a href="#">Help & Support</a>
             <a href="#">Customer Stories</a>
             <a href="#">Legal</a>
             <a href="#">FAQ</a>
+         </div>
     </div>
     <div class="footerCopyright">
        <p>© Copyright @diti.io2022.All Rights Reserved</p>
-       <div>
+       
         <p>Terms and Conditions</p>
-        <hr>
+      
         <p>Privacy Policy</p>
-       </div>
+       
     </div>
 </footer>
 
