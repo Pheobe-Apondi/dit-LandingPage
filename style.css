@@ -595,13 +595,16 @@ header{
 
     .socials{
        font-size: 2em;
-       margin-left: 1em;
+    
+    
        
 
     }
     .footerContent{
        display: flex;
-       gap: 3%;
+       margin-left: 0%;
+       gap: 2%;
+      
     
     }
   
@@ -1083,16 +1086,6 @@ header{
   }
 
 
-  .socialProof{
-    display: block;
-    gap: 4%;
-  }
-
-  #socialProofImage{
-    width: 100%;
-    
-
-  }
 
   
 
@@ -1127,8 +1120,12 @@ header{
 }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 601px){
+@media only screen and (max-width: 900px) and (min-width: 601px){
+  body{
+    overflow-x: hidden;
+    justify-content: center;
 
+  }
 
 header{
     display: block;
@@ -1302,33 +1299,308 @@ header{
 
   .createAccount{
     display: block;
-    width: 40vw;
+    width: 70vw;
     
   }
 
 
    #watchButton{
-     width: 40%;
+     width: 60%;
    }
 
    #getInTouchImage{
 
-    margin-left: -30%;
+    margin-left: 25%;
     position: absolute;
-    margin-top: 70%;
-    width: 50%;
+    margin-top: 30%;
+    width: 40%;
     
 
    }
 
    .studyWithMe{
       width: 100%;
+      margin-top: 40%;
     
    }
 
 #joinButton{  
     width: 100%;
 }
+
+
+}
+
+
+
+.services{
+  background-color: rgb(167, 243, 218);
+  border-radius: 2em;
+  width: 100%;
+  padding: 2em;
+
+
+
+
+   .servicesCatalogue{
+      display: flex;
+      justify-content: center;
+      gap: 10%;
+      
+  
+   }
+
+   #servicesHeading{
+      text-align: center;
+      padding-top: 2em;
+     
+     
+      font-size: 4rem;
+   }
+   #servicesHeading a{
+      color: red;
+   }
+
+   .interfaceServices, .supportServices, .transfersServices{
+    background-color: white;
+    border-radius: 2em;
+    padding: 2em;
+    padding-bottom: 5em;
+    margin-bottom: 2em;
+    
+   }
+
+   .interfaceServices{
+      border: solid 3px purple;
+   }
+   #starIcon{
+      background-color: burlywood;
+       margin-left: 40%;
+      padding: 0.5em;
+      border-radius: 3rem;
+      font-size: 2em;
+   }
+   #equalizer{
+      background-color: aqua;
+      margin-left: 40%;
+     padding: 0.5em;
+     border-radius: 3rem;
+     font-size: 2em;
+   }
+
+   #featherIcon{
+      background-color: pink;
+      margin-left: 40%;
+     padding: 0.5em;
+     border-radius: 3rem;
+     font-size: 2em;
+   }
+
+
+
+}
+
+
+  
+ .appInfo{
+  display: block;
+  background-color: rgb(247, 231, 234);
+  height: 70vh;
+  border-radius: 2em;
+  justify-content: center;
+
+  .appDetails{
+   
+   font-size: 1.5em;
+   padding: 2em; 
+
+
+  }
+
+  .appsettings{
+    background-color: bisque;
+     transform: none;
+     border-radius: 2em;
+     width: 80%;
+     margin-left: 6%;
+     margin-top: 10%;
+    
+     height: 50vh;
+
+  }
+
+  
+ 
+  #appButton{
+   background-color: rgb(10, 10, 27);
+   color: white;
+   border-radius: 2em;
+   padding: 2em;
+   width: 70%;
+  
+
+  }
+
+  .socialMedia{
+    background-color: bisque;
+  transform: none;
+  border-radius: 2em;
+  padding-left: 2em;
+  width: 80%;
+  margin-left: 6%;
+  margin-top: 10%;
+  height: 70vh;
+  padding: 2em;
+  
+
+ 
+  }
+
+  #socialMediaHeading{
+   width: 80%;
+  }
+
+  
+
+  .socialMediaButton{
+   display: block;
+   margin-left: 20%;
+   margin-top: 5%;
+   
+  
+  }
+  #socialLoginButton{
+   width: 80%;
+   padding: 2em;
+   border: solid 2px rgb(228, 70, 122);
+   border-radius: 2em;
+
+  }
+  #socialSignUpButton{
+   margin-top: 2%;
+   width: 80%;
+   padding: 2em;
+   color: white;
+   background-color: rgb(221, 120, 137);
+   border-radius: 2em;
+   border: none;
+  }
+
+  #socialsImage{
+   width: 50%;
+   margin-left: 20%;
+ }
+ .mediaIcons{
+   margin-top: 3%;
+   margin-left: 5%;
+   display: flex;
+   gap: 60%;
+ }
+
+ #mediaName{
+   margin-left: 2%;
+   margin-top: -7%;
+   text-align: center;
+ }
+
+}
+ 
+
+
+.testimonials{
+  margin-top: 200%;
+ }
+
+#testimonialsHeading{
+
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2em;
+   
+  }
+
+  .clientTestimonials{
+    display: block;
+   
+   
+  
+  }
+
+    .leftsideClient{
+        width: 80%;
+        background-color: antiquewhite;
+    }
+
+  #testimonialClient{
+    width: 50%;
+  
+   
+  }
+
+  #leftAtrowIcon{
+  display: none;
+  }
+
+  
+  .rightSideClient{
+    margin-top: 5%;
+    background-color: antiquewhite;
+    width: 80%;
+    border-radius: 3em;
+  
+   
+  }
+
+  #clientImage{
+   width: 25%;
+
+  }
+
+  #rightArrowIcon{
+   display: none;
+
+  }
+
+
+
+.socialProof{
+  display: block;
+}
+
+#socialProofImage{
+  width: 80vw;
+ 
+  
+
+}
+
+
+
+.footer{
+  margin: 0 auto;
+  width: 100%;
+
+
+  .footerContent{
+     display: block;
+     
+  
+  }
+
+  .products, .features, .company, .resources{
+      display: block;
+      padding-left: 10%;
+      font-size: 2em;
+     
+
+  }
+
+  .footerCopyright{
+     display: block;
+    
+
+}
+
 
 
 }
