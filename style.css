@@ -472,6 +472,7 @@ header{
  
 }
   
+
   #testimonialsHeading{
 
     font-size: 4em;
@@ -482,12 +483,15 @@ header{
   .clientTestimonials{
     display: flex;
     margin-left: 2em;
+    justify-content: center;
+    gap: 10%;
+   
   
   }
 
     .leftsideClient{
         border: solid 3px rgb(235, 116, 136);
-        width: 50%;
+        width: 30%;
         border-radius: 2em;
         padding: 2em;
     }
@@ -505,15 +509,15 @@ header{
    border-radius: 70%;
    margin-left: -1.5em;
    position: absolute;
-   margin-top: -5em;
+   margin-top: -1.8em;
   background-color: white;
   }
 
   
   .rightSideClient{
-    border: solid 2px red;
     padding: 2em;
     width: 40%;
+    margin-top: -5%;
    
   }
 
@@ -529,8 +533,8 @@ header{
     padding: 0.5em;
     border-radius: 70%;
     position: absolute;
-    margin-left: 10em;
-    margin-top: -5em;
+    margin-left: 13em;
+    margin-top: -3em;
 
   }
   .socialProof{
@@ -578,7 +582,7 @@ header{
 
 
   .footer{
-    background-color: rgb(16, 16, 85);
+    background-color: rgb(13, 13, 78);
     color: white;
     color: black;
     
@@ -815,6 +819,112 @@ header{
 }
 
 
+appInfo{
+    display: block;
+    background-color: rgb(247, 231, 234);
+    height: 100vh;
+    border-radius: 2em;
+    justify-content: center;
+ 
+    .appDetails{
+     
+     font-size: 1.5em;
+     padding: 2em; 
+ 
+ 
+    }
+ 
+    .appsettings{
+       background-color: white;
+       padding: 2em;
+       transform: none;
+       border-radius: 2em;
+       width: 15%;
+       margin-left: 0%;
+       margin-top: 3%;
+       height: 50vh;
+ 
+    }
+ 
+    
+    #phoneIcon{
+     font-size: 2rem;
+     background-color: white;
+     padding: 0.7em;
+     border-radius: 70%;
+    }
+ 
+    #appButton{
+     background-color: rgb(10, 10, 27);
+     color: white;
+     border-radius: 2em;
+     padding: 2em;
+     width: 30%;
+    
+ 
+    }
+ 
+    .socialMedia{
+     background-color: white;
+    transform: none;
+    border-radius: 2em;
+    padding-left: 2em;
+    width: 20%;
+    margin-left: 8%;
+    margin-top: 2%;
+    height: 50vh;
+    
+ 
+   
+    }
+ 
+    #socialMediaHeading{
+     width: 80%;
+    }
+ 
+    
+ 
+    .socialMediaButton{
+     display: block;
+     margin-left: 2%;
+    
+    }
+    #socialLoginButton{
+     width: 60%;
+     padding: 2em;
+     border: solid 2px rgb(228, 70, 122);
+     border-radius: 2em;
+ 
+    }
+    #socialSignUpButton{
+     margin-top: 2%;
+     width: 60%;
+     padding: 2em;
+     color: white;
+     background-color: rgb(221, 120, 137);
+     border-radius: 2em;
+     border: none;
+    }
+ 
+    #socialsImage{
+     width: 40%;
+   }
+   .mediaIcons{
+     margin-top: 3%;
+     margin-left: 5%;
+     display: flex;
+     gap: 60%;
+   }
+ 
+   #mediaName{
+     margin-left: 2%;
+     margin-top: -7%;
+   }
+  
+ }
+   
+ 
+
 .services{
     background-color: blueviolet;
 
@@ -868,5 +978,50 @@ header{
 
 }
 
+.clientTestimonials{
+    display: block;
+    
+   
+  
+  }
 
+.socialProof{
+    display: block;
+  }
+
+  #socialProofImage{
+    width: 100vw;
+    margin-left: 0px;
+    
+
+  }
+
+.footer{
+
+  
+    .footerContent{
+       display: block;
+       
+    
+    }
+  
+    .products, .features, .company, .resources{
+        display: block;
+        padding-left: 20%;
+        font-size: 1.5em;
+       
+
+    }
+
+    .footerCopyright{
+       color: white;
+       display: block;
+      
+
+      
+  }
+ 
+
+
+}
 }
