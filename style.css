@@ -636,6 +636,11 @@ header{
 
 
 @media only screen and (max-width: 600px) and (min-width: 360px){
+      
+      body{
+        overflow-x: hidden;
+      } 
+      
      
     header{
         display: block;
@@ -653,6 +658,7 @@ header{
             color: rgb(175, 171, 171);
             display: block;
             background-color: aqua;
+         
         }
         .navbar a:hover{
             color: black;
@@ -687,7 +693,7 @@ header{
     }
 
     .heroLeftSide{
-       background-color: blue;
+       background-color: none;
        width: 100vw;
        margin-left: 0%;
     
@@ -696,7 +702,7 @@ header{
     }
     .heroTitle{
        font-size: 1.5rem;
-       border: solid red 2px;
+        border: none;
         width:70%;
         padding-right: 0%;
         padding-left: 3%;
@@ -707,7 +713,8 @@ header{
     }
     
     .heroButtons{
-      display:block;
+      display: flex;
+      gap: 2%;
       margin-top: 0%;
       margin-left: 0%;
       
@@ -720,7 +727,7 @@ header{
         border-radius: 2em;
         background-color: rgb(10, 10, 27);
         color: white;
-        width: 50%;
+        width: 100%;
         padding: 1em;
         font-size: 1em;
         margin-top: 5%;
@@ -732,7 +739,7 @@ header{
        border-radius: 2em;
        border: solid 2px   rgb(10, 10, 27);
        color: rgb(10, 10, 27);
-       width: 50%;
+       width: 100%;
        padding: 1em;
        font-size: 1em;
        background-color: white;
@@ -743,8 +750,7 @@ header{
 
      #heroContact{
        
-       font-size: 1em;
-       background-color: gray;
+       font-size: 1.5em;
    }
 
    #heroLink{
@@ -758,6 +764,8 @@ header{
       border-radius: 2em;
       transform: none;
       display: block;
+      width: 100vw;
+      margin-top: 5%
     }
 
     .profileInfo{
@@ -776,9 +784,9 @@ header{
    }
 
    #happyFace{
-       margin-top: -40%;
-      
-       margin-left: -60%;
+    margin-top: -40%;
+    margin-left: 0%;
+    margin-right: 8%;
        z-index: -1;
    }
 
@@ -809,7 +817,7 @@ header{
 
   .companiesLogo{
       display: block;
-      
+      width: 90%;
       margin-left: 0em;
       margin-top: 3em;
   }
@@ -823,10 +831,22 @@ header{
 }
 
 
-appInfo{
+
+#tagline{
+    text-align: center;
+    margin: 2em;
+   font-size: 2rem;
+   width: 50%;
+   margin-left: 26%;
+ }
+ 
+ #tagline a{
+     color: red;
+ }
+ .appInfo{
     display: block;
     background-color: rgb(247, 231, 234);
-    height: 100vh;
+    height: 70vh;
     border-radius: 2em;
     justify-content: center;
  
@@ -839,31 +859,25 @@ appInfo{
     }
  
     .appsettings{
-       background-color: white;
-       padding: 2em;
+     
        transform: none;
        border-radius: 2em;
-       width: 15%;
-       margin-left: 0%;
-       margin-top: 3%;
-       height: 50vh;
+       width: 80%;
+       margin-left: 6%;
+       margin-top: 10%;
+      
+       height: 70vh;
  
     }
  
     
-    #phoneIcon{
-     font-size: 2rem;
-     background-color: white;
-     padding: 0.7em;
-     border-radius: 70%;
-    }
- 
+   
     #appButton{
      background-color: rgb(10, 10, 27);
      color: white;
      border-radius: 2em;
      padding: 2em;
-     width: 30%;
+     width: 70%;
     
  
     }
@@ -873,10 +887,11 @@ appInfo{
     transform: none;
     border-radius: 2em;
     padding-left: 2em;
-    width: 20%;
-    margin-left: 8%;
-    margin-top: 2%;
-    height: 50vh;
+    width: 80%;
+    margin-left: 6%;
+    margin-top: 10%;
+    height: 70vh;
+    padding: 2em;
     
  
    
@@ -929,65 +944,132 @@ appInfo{
    
  
 
-.services{
-    background-color: blueviolet;
+ .services{
+      width: 100%;
+
 
      .servicesCatalogue{
         display: block;
-        justify-content: center;
-        gap: 10%;
-        margin: 1em;
+        
+        padding: 2em;
+    
+        
     
      }
 
      #servicesHeading{
         text-align: center;
-        margin: 2em;
-        padding-top: 2em;
+        padding: 2em;
+        font-size: 2.3rem;
      }
+    
 
-     .interfaceServices, .supportServices, .transfersServices{
-      background-color: palegreen;
-      border-radius: 2em;
-      padding: 2em;
-      padding-bottom: 5em;
-      margin-bottom: 2em;
-      
-     }
+}
 
-     #starIcon{
-        background-color: burlywood;
-         margin-left: 40%;
-        padding: 0.5em;
-        border-radius: 3rem;
+
+  
+.statistics{
+    display: block;
+    
+   
+    .statsDescription{ 
         font-size: 2em;
-     }
-     #equalizer{
-        background-color: aqua;
-        margin-left: 40%;
-       padding: 0.5em;
-       border-radius: 3rem;
-       font-size: 2em;
-     }
+        margin-bottom: 2em;
+    }
+    
+    .getInTouch{
+       width: 100%;
+    }
 
-     #featherIcon{
-        background-color: pink;
-        margin-left: 40%;
-       padding: 0.5em;
-       border-radius: 3rem;
-       font-size: 2em;
-     }
+    .userDownloads, .userSubscribers{
+        display: block;
+    }
 
+  .createAccount{
+    display: block;
+    width: 40vw;
+    
+  }
+
+
+   #watchButton{
+     width: 40%;
+   }
+
+   #getInTouchImage{
+
+    margin-left: -30%;
+    position: absolute;
+    margin-top: 70%;
+    width: 50%;
+    
+
+   }
+
+   .studyWithMe{
+      width: 100%;
+    
+   }
+
+#joinButton{  
+    width: 100%;
+}
 
 
 }
 
-.clientTestimonials{
+ .testimonials{
+  margin-top: 370%;
+ }
+
+#testimonialsHeading{
+
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2em;
+   
+  }
+
+  .clientTestimonials{
     display: block;
-    
+   
    
   
   }
+
+    .leftsideClient{
+        width: 80%;
+    }
+
+  #testimonialClient{
+    width: 50%;
+  
+   
+  }
+
+  #leftAtrowIcon{
+  display: none;
+  }
+
+  
+  .rightSideClient{
+
+    width: 70%;
+  
+   
+  }
+
+  #clientImage{
+   width: 25%;
+
+  }
+
+  #rightArrowIcon{
+   display: none;
+
+  }
+
+
 
 .socialProof{
     display: block;
@@ -995,12 +1077,29 @@ appInfo{
 
   #socialProofImage{
     width: 100vw;
-    margin-left: 0px;
+   
     
 
   }
 
+
+  .socialProof{
+    display: block;
+    gap: 4%;
+  }
+
+  #socialProofImage{
+    width: 100%;
+    
+
+  }
+
+  
+
+
 .footer{
+    margin: 0 auto;
+    width: 100%;
 
   
     .footerContent{
@@ -1011,21 +1110,228 @@ appInfo{
   
     .products, .features, .company, .resources{
         display: block;
-        padding-left: 20%;
-        font-size: 1.5em;
+        padding-left: 10%;
+        font-size: 1em;
        
 
     }
 
     .footerCopyright{
-       color: white;
        display: block;
       
-
-      
+ 
   }
  
 
 
 }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 601px){
+
+
+header{
+    display: block;
+    margin-top: 2%;
+
+   
+
+    .headerButtons{
+        margin-top: 10%;
+        margin-left: 20%;
+        display: flex;
+        gap: 45px;
+    width: 40%;
+      
+    }
+
+    #headerSignUp{
+        color: white;
+        background-color: rgb(212, 37, 66);
+        border: none;
+        padding: 2em;
+        border-radius: 1em;
+        
+    }
+    #headerLogin{
+        padding: 2em;
+        border-radius: 1em;
+        border: none;
+      
+    }
+}
+
+    
+
+    
+.heroSection{
+    display: block;
+   
+   
+
+
+    #heroTitleColor{
+       color: red;
+    
+    }
+
+    .heroLeftSide{
+       background-color: none;
+       width: 100vw;
+       margin-left: 0%;
+     
+    
+     
+       
+    }
+    .heroTitle{
+       font-size: 3rem;
+        border: none;
+        width:100%;
+       
+
+
+      
+    }
+    
+    .heroButtons{
+      display: flex;
+      gap: 2%;
+      margin-top: 0%;
+      margin-left: 10%;
+      
+      
+    }
+
+    #appleIcon, #googleIcon{
+       font-size: 2rem;
+    }
+ 
+
+     #heroContact{
+       
+       font-size: 1.5em;
+   }
+
+   #heroLink{
+       background-color: none;
+       color: rgb(10, 10, 27) ;
+   }
+
+    .heroRightSide{
+      background-color: rgb(199, 126, 138);
+      padding-left: 4em;
+      border-radius: 2em;
+      transform: none;
+      display: block;
+      width: 100vw;
+      margin-top: 5%;
+      margin-left: 2%;
+      
+      
+    }
+
+    .profileInfo{
+       display: block;
+       gap: 2%;
+    }
+   #profileImage{
+       width: 30%;
+     
+     
+   }
+
+   .profileDescription{
+       display: flex;
+       gap: 44%;
+   }
+
+   #happyFace{
+    margin-top: -40%;
+    margin-left: 40%;
+    margin-right: 8%;
+       z-index: -1;
+   }
+
+   .profileHighlights{
+       background-color: blue;
+       border-radius: 2em;
+       text-align: center;
+       padding-top: 15px;
+       width: 60%;
+       margin-top: -25%;
+       
+   }
+
+  
+}
+
+#partneredCompaniesTitle{
+    text-align: center;
+    margin-top: 10%;
+    color: grey;
+    font-size: 3em;
+}
+
+
+.companiesLogo{
+    display: block;
+    width: 100%;
+    margin-left: -2eem;
+    margin-top: 3em;
+}
+
+
+  
+.statistics{
+    display: block;
+    
+   
+    .statsDescription{ 
+        font-size: 2em;
+        margin-bottom: 2em;
+    }
+    
+    .getInTouch{
+       width: 100%;
+    }
+
+    .userDownloads, .userSubscribers{
+        display: flex;
+    }
+
+  .createAccount{
+    display: block;
+    width: 40vw;
+    
+  }
+
+
+   #watchButton{
+     width: 40%;
+   }
+
+   #getInTouchImage{
+
+    margin-left: -30%;
+    position: absolute;
+    margin-top: 70%;
+    width: 50%;
+    
+
+   }
+
+   .studyWithMe{
+      width: 100%;
+    
+   }
+
+#joinButton{  
+    width: 100%;
+}
+
+
+}
+
+
 }
